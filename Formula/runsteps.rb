@@ -5,21 +5,21 @@ class Runsteps < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/silafood/runsteps/releases/download/v0.1.0/runsteps-aarch64-apple-darwin.tar.xz"
-      sha256 "5a4482abf84ea35294bcba5f85b4d385c25798d4ed3b20f86e01cf43bb9af1aa"
+      sha256 "c2afae36e46ec9d3e89bdbe60f27893b3e633ac2667d0efafbaee7557ee56259"
     end
     if Hardware::CPU.intel?
       url "https://github.com/silafood/runsteps/releases/download/v0.1.0/runsteps-x86_64-apple-darwin.tar.xz"
-      sha256 "488beeca8fef328f1d0c0621e79e84dbe676d8d28731eebf44e98febeaf6aedb"
+      sha256 "35d8eac78c2df8bcc3f0a6c1fa38a8a2c432fd87d29c98d82bb321582fdb0e6d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/silafood/runsteps/releases/download/v0.1.0/runsteps-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "45ac21b8594eecadd798a8fcd86c2d3c8cc46af9aaa325ef708d25e9f732231f"
+      sha256 "3b2be99c448734622cc78659b539cfd106e7901f20f52862b8b50248d3dfbe51"
     end
     if Hardware::CPU.intel?
       url "https://github.com/silafood/runsteps/releases/download/v0.1.0/runsteps-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c38681c89d2baf29664aaf15f3a1fe096b53364fcbaaaff3d851652a53a33a0f"
+      sha256 "38cc22a64c0d174f0202e681b9c9deee9430d9d24db9bc8f0498c2017dc12c65"
     end
   end
   license "MIT"
