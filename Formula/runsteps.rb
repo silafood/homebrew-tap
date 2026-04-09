@@ -1,25 +1,25 @@
 class Runsteps < Formula
   desc "Interactive config-driven task runner"
-  homepage "https://zeroows.github.io/runsteps"
+  homepage "https://silafood.github.io/runsteps"
   version "0.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/zeroows/runsteps/releases/download/v0.1.0/runsteps-aarch64-apple-darwin.tar.xz"
-      sha256 "c063b00224dc4a43c67bb8c8ce3cae6f2dedf4cb0efe0d939bf0ceb062f86c0d"
+      url "https://github.com/silafood/runsteps/releases/download/v0.1.0/runsteps-aarch64-apple-darwin.tar.xz"
+      sha256 "b276dd734418fdd7c309d959bac9a69fff226e4927808d0e9fb66dfbffb6d079"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/zeroows/runsteps/releases/download/v0.1.0/runsteps-x86_64-apple-darwin.tar.xz"
-      sha256 "4cc8981f12bba69690099bc73ea196ffed19998558e8cd693c1934afc1d9e44c"
+      url "https://github.com/silafood/runsteps/releases/download/v0.1.0/runsteps-x86_64-apple-darwin.tar.xz"
+      sha256 "fa63a6869c7c4cbdf9417853a91ec9709116b8f741732d3eae21d8048f528f55"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/zeroows/runsteps/releases/download/v0.1.0/runsteps-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "46643ce5bfab4901a5b60616cc4d0d4eac89fb2ab4d9512c5aaed4a6d980e5cf"
+      url "https://github.com/silafood/runsteps/releases/download/v0.1.0/runsteps-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "126aa9f22d42b61fdc83cd63ecf533763f2d148f5741835f59e09f520f5c3178"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/zeroows/runsteps/releases/download/v0.1.0/runsteps-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "48b5b2909fcf7a47219657e8f06ed594217294b37fddeb3b27d7c3d975352480"
+      url "https://github.com/silafood/runsteps/releases/download/v0.1.0/runsteps-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "07ea19e13b1e7906392dbec5bafedd43d515a22317d028ebce127dc9b69ead4b"
     end
   end
   license "MIT"
