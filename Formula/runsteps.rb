@@ -1,25 +1,25 @@
 class Runsteps < Formula
   desc "Interactive config-driven task runner"
   homepage "https://runsteps.silafood.app"
-  version "0.1.3"
+  version "0.1.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/silafood/runsteps/releases/download/v0.1.3/runsteps-aarch64-apple-darwin.tar.xz"
-      sha256 "2837ddd54e6e665fd837a4fa1c14e53bb02a9f3456798158525e0e113a7ef5fb"
+      url "https://github.com/silafood/runsteps/releases/download/v0.1.5/runsteps-aarch64-apple-darwin.tar.xz"
+      sha256 "140398339400d17eae3d28c9af13b7a636aebc41bfa69725bf53c52d79974a0e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/silafood/runsteps/releases/download/v0.1.3/runsteps-x86_64-apple-darwin.tar.xz"
-      sha256 "9c3820186911d73b10f424de3d717c24e210e94dc2261027234f488359539ee8"
+      url "https://github.com/silafood/runsteps/releases/download/v0.1.5/runsteps-x86_64-apple-darwin.tar.xz"
+      sha256 "91c152b2c9378805c946e723c54a7907e546d8f5e5323403a5602aa1bcd88a37"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/silafood/runsteps/releases/download/v0.1.3/runsteps-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "8662663063dfe6a05d538c8bf7d35747708280888c11b66bf22d23ce99e123cd"
+      url "https://github.com/silafood/runsteps/releases/download/v0.1.5/runsteps-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2b4f0b5f51fe4c4a9e671667b2f3f11b4026c609427f661974717591a0a0ef02"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/silafood/runsteps/releases/download/v0.1.3/runsteps-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f2f8aee4b1ef752824e46d81679d50bea923131debfde7f92a76d4a4ce17a96e"
+      url "https://github.com/silafood/runsteps/releases/download/v0.1.5/runsteps-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3a26479705d96003e269a0f28d7bc99f001f796bec06de6d370bc73a4d3778dc"
     end
   end
   license "MIT"
